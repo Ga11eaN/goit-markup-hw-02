@@ -1,0 +1,109 @@
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-background: #ffffff;
+  --secondary-background: #2f303a;
+  --button-background: #f5f4fa;
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background);
+}
+
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый background #FFFFFF */
+/* blue #2196F3 */
+/* links 255,255,255,0,6 */
+
+.list {
+  list-style: none;
+}
+/* site nav */
+.site-nav .link {
+  color: var(--main-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.head-link .link:hover,
+.head-link .link:focus {
+  color: var(--accent-color);
+}
+
+/* body */
+
+.section-title {
+  color: var(--main-text-color);
+}
+
+.hero-title {
+  color: var(--main-background);
+}
+.hero {
+  background-color: var(--secondary-background);
+}
+
+/* advantages */
+.advantages .text {
+  color: var(--secondary-text-color);
+}
+
+.job {
+  color: var(--secondary-text-color);
+}
+
+/* logo-name */
+.name-blue {
+  color: var(--accent-color);
+}
+
+.name-black {
+  color: #000000;
+}
+
+/* button */
+.button {
+  color: var(--main-background);
+  background-color: var(--accent-color);
+}
+
+/* footer */
+.bottom {
+  background-color: var(--secondary-background);
+}
+
+.bottom-link {
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.bottom-adress {
+  color: var(--main-background);
+}
+
+/* Portfolio button */
+.nav-filter {
+  background-color: var(--button-background);
+  color: var(--main-text-color);
+}
+.nav-filter:hover {
+  background-color: var(--accent-color);
+  color: var(--main-background);
+}
+
+/* Portfolio cards */
+.card-title {
+  color: var(--main-text-color);
+}
+.card-desc {
+  color: var(--secondary-text-color);
+}
